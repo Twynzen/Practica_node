@@ -1,11 +1,10 @@
-const fs = require('fs');
-
-//hacer que el SISTEMA OPERATIVO pueda crear un archivo de texto la funcion es un colbag
-//Al ser tarea del SISTEMA OPERATIVO se queda ejecutando mientras node.js hace otras cosas
-fs.writeFile('./texto.txt', 'Linea uno', function(err){
-  if (err) {
-    console.log(err);
-  }
-  console.log('Archivo creado');
-});
-console.log('Ultima linea de3 codigo');
+//Utilizar el protocolo http recibe peticiones y da respuestas
+const http = require('http');
+//request = req = la petición al servidor
+//respont = res = la respuesta del servidor
+http.createServer(function(req, res){0
+  res.write('<h1>Hola pues desde el nodejs</h1>');
+  //importante terminar la respuesta
+  res.end();
+  //metodo listen se coloca el puerto que va a escuchar el servidor
+}).listen(3000);
