@@ -1,0 +1,27 @@
+{
+  "name": "proyecto_practica1",
+  "version": "1.0.0",
+  "description": "Un ejercicio de nodejs",
+  "main": "index1.js",
+  "dependencies": {
+    "colors": "^1.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twynzen/Practica_node.git"
+  },
+  "keywords": [
+    "nodejs",
+    "pracica1"
+  ],
+  "author": "DanielTwinzen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Twynzen/Practica_node/issues"
+  },
+  "homepage": "https://github.com/Twynzen/Practica_node#readme"
+}
