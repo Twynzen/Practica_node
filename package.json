@@ -4,15 +4,19 @@
   "description": "Un ejercicio de nodejs",
   "main": "index1.js",
   "dependencies": {
-    "colors": "^1.3.3"
+    "colors": "^1.3.3",
+    "express": "^4.17.1"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node index1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Twynzen/Practica_node.git"
+
   },
   "keywords": [
     "nodejs",
